@@ -1,0 +1,96 @@
+/*
+ Theme Name:   dyad Child
+ Theme URI:    http://0464.ca
+ Description:  This contain all the custom modification of the original dyad Theme.
+ Author:       Frederic Guilbault
+ Author URI:   http://0464.ca
+ Template:     dyad
+ Version:      1.0.0
+ Tags:
+ Text Domain:  dyad-child
+*/
+
+#logoImg{
+    position: absolute;
+    z-index: 5000;
+
+
+}
+#logoIImg {
+    height: 57px;
+    z-index: 5000;
+    padding-left: 20px;
+    margin-top: 7px;
+}
+#logoImg h2,#logoImg h1, #logoImg h3{
+float:right;
+    padding-left: 5px;
+    color:#f1f1f1;
+    margin-top:18px;
+}
+.site-branding{
+    padding-bottom:20px;
+}
+
+.posts .hentry,.posts {
+    border:5px solid #f1f1f1;
+}
+
+.site-banner-media, .site-banner .site-banner-thumbnail{
+    padding-bottom:40%;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+h3.wzkb_section_name{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+h3.wzkb_section_name.active, h3.wzkb_section_name:hover {
+    background-color: #ddd;
+}
+
+
+
+/* Style the accordion panel. Note: hidden by default */
+.wzkb_section_wrapper{
+    padding: 0 18px;
+    background-color: white;
+   /* display: none ;*/
+}
+
+div.group.wzkb-section-level-1{
+    padding: 0 18px;
+    background-color: white;
+    display: block;
+}
+
+.wzkb-section-level-1{margin-left: 40px;margin-right: 40px}
+.wzkb-section-level-2{margin-left: 40px;margin-right: 40px}
+.wzkb-section-level-3{margin-left: 40px;margin-right: 40px}
+.wzkb-section-level-4{margin-left: 40px;margin-right: 40px}
+.wzkb-section-level-5{margin-left: 40px;margin-right: 40px}
+
+.wzkb_section.wzkb-section-level-0{display:block !important}
+
+.wzkb-article-name {
+
+    margin:5px;
+
+}
+.wzkb_section.wzkb-section-level-2.col.span_1_of_2{
+    float: none;
+}
+.wzkb-articles-list li:before{
+    content:'>' !important ;
+}
+
+
